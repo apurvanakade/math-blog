@@ -10,7 +10,30 @@
 <atom:link href="https://quarto.org/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 17 Sep 2023 00:15:39 GMT</lastBuildDate>
+<lastBuildDate>Sun, 24 Sep 2023 16:14:03 GMT</lastBuildDate>
+<item>
+  <title>Automated Mathematics and the Reconfiguration of Proof and Labor</title>
+  <link>https://quarto.org/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I came across this essay by Rodrigo Ochigame exploring possible future impact of math formalization and automation.</p>
+<p><a href="https://arxiv.org/abs/2309.11457v1">Automated Mathematics and the Reconfiguration of Proof and Labor</a></p>
+<p>Abstract:</p>
+<blockquote class="blockquote">
+<p>This essay examines how automation has reconfigured mathematical proof and labor, and what might happen in the future. It discusses practical standards of proof, distinguishes between prominent forms of automation in research, provides critiques of recurring assumptions, and asks how automation might reshape economies of labor and credit.</p>
+</blockquote>
+
+
+
+ ]]></description>
+  <category>to-read</category>
+  <category>philosophy</category>
+  <category>essay</category>
+  <guid>https://quarto.org/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</guid>
+  <pubDate>Sun, 24 Sep 2023 16:14:03 GMT</pubDate>
+</item>
 <item>
   <title>When Math Becomes an Art</title>
   <link>https://quarto.org/posts/2023-09-16 when math becomes an art.html</link>
