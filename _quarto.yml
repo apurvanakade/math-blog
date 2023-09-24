@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Scribbles"
+  navbar:
+    left:
+      - text: Home
+        href: https://apurvanakade.github.io/
+      - text: Notes
+        href: https://apurvanakade.github.io/notes.html
+      - text: Lean
+        href: https://apurvanakade.github.io/lean/
+      - text: Scribbles
+        href: https://apurvanakade.github.io/scribbles/
+      - text: CV
+        href: https://apurvanakade.github.io/CV.html
+    right:
+      - icon: github
+        href: https://github.com/apurvanakade/
+        aria-label: GitHub
+  # sidebar: 
+  #   style: floating
+  #   search: true
+  #   contents: auto
+  open-graph: true
+  site-url: https://quarto.org
+  repo-url: https://github.com/quarto-dev/quarto-web
+  search:
+    type: overlay
+    location: navbar
+  
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: cyborg
+    css: styles.css
+
+output-dir: docs
