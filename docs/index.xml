@@ -10,29 +10,27 @@
 <atom:link href="https://quarto.org/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 24 Sep 2023 16:14:03 GMT</lastBuildDate>
+<lastBuildDate>Sun, 24 Sep 2023 16:22:43 GMT</lastBuildDate>
 <item>
-  <title>Automated Mathematics and the Reconfiguration of Proof and Labor</title>
-  <link>https://quarto.org/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</link>
+  <title>The L-functions and modular forms database (LMFDB)</title>
+  <link>https://quarto.org/posts/2023-09-24 lmfdb.html</link>
   <description><![CDATA[ 
 
 
 
-<p>I came across this essay by Rodrigo Ochigame exploring possible future impact of math formalization and automation.</p>
-<p><a href="https://arxiv.org/abs/2309.11457v1">Automated Mathematics and the Reconfiguration of Proof and Labor</a></p>
-<p>Abstract:</p>
+<p><a href="https://www.lmfdb.org/">LMFDB</a> <a href="https://github.com/LMFDB/lmfdb">Github</a></p>
 <blockquote class="blockquote">
-<p>This essay examines how automation has reconfigured mathematical proof and labor, and what might happen in the future. It discusses practical standards of proof, distinguishes between prominent forms of automation in research, provides critiques of recurring assumptions, and asks how automation might reshape economies of labor and credit.</p>
+<p>The LMFDB is a database of mathematical objects arising in number theory and arithmetic geometry that illustrates some of the mathematical connections predicted by the Langlands program.</p>
 </blockquote>
+<p>I love this website. I don’t understand anything on it. But I’m amazed that this exists and I marvel at the amount of effort the writers must have put into making this happen. I’ve always thought that number theory is unique in how it manages to straddle the concrete and the abstract worlds so effortlessly. This website is a proof of this.</p>
 
 
 
  ]]></description>
-  <category>to-read</category>
-  <category>philosophy</category>
-  <category>essay</category>
-  <guid>https://quarto.org/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</guid>
-  <pubDate>Sun, 24 Sep 2023 16:14:03 GMT</pubDate>
+  <category>database</category>
+  <category>number-theory</category>
+  <guid>https://quarto.org/posts/2023-09-24 lmfdb.html</guid>
+  <pubDate>Sun, 24 Sep 2023 16:22:43 GMT</pubDate>
 </item>
 <item>
   <title>When Math Becomes an Art</title>
