@@ -25,8 +25,8 @@ website:
   #   search: true
   #   contents: auto
   open-graph: true
-  site-url: https://quarto.org
-  repo-url: https://github.com/quarto-dev/quarto-web
+  site-url: https://apurvanakade.github.io/scribbles/
+  repo-url: https://github.com/apurvanakade/scribbles/
   search:
     type: overlay
     location: navbar
