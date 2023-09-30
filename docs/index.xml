@@ -10,7 +10,30 @@
 <atom:link href="https://apurvanakade.github.io/scribbles/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 24 Sep 2023 16:22:43 GMT</lastBuildDate>
+<lastBuildDate>Sun, 24 Sep 2023 16:37:29 GMT</lastBuildDate>
+<item>
+  <title>The Tau Manifesto</title>
+  <link>https://apurvanakade.github.io/scribbles/posts/2023-09-24 tau.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="https://tauday.com/tau-manifesto"><img src="https://latex.codecogs.com/png.latex?%5Ctau"> manifesto</a></p>
+<blockquote class="blockquote">
+<p>The Tau Manifesto is dedicated to one of the most important numbers in mathematics, perhaps the most important: the circle constant relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice for the circle constant is (<img src="https://latex.codecogs.com/png.latex?%5Cpi">)—but, as mathematician Bob Palais notes in his delightful article “<img src="https://latex.codecogs.com/png.latex?%5Cpi"> is Wrong!”, <img src="https://latex.codecogs.com/png.latex?%5Cpi"> is wrong. It’s time to set things right.</p>
+</blockquote>
+<p>Mathematicians have too much time on their hands xD</p>
+
+
+
+ ]]></description>
+  <category>funny</category>
+  <category>database</category>
+  <category>math</category>
+  <category>to-read</category>
+  <guid>https://apurvanakade.github.io/scribbles/posts/2023-09-24 tau.html</guid>
+  <pubDate>Sun, 24 Sep 2023 16:37:29 GMT</pubDate>
+</item>
 <item>
   <title>The L-functions and modular forms database (LMFDB)</title>
   <link>https://apurvanakade.github.io/scribbles/posts/2023-09-24 lmfdb.html</link>
@@ -29,6 +52,7 @@
  ]]></description>
   <category>database</category>
   <category>number-theory</category>
+  <category>math</category>
   <guid>https://apurvanakade.github.io/scribbles/posts/2023-09-24 lmfdb.html</guid>
   <pubDate>Sun, 24 Sep 2023 16:22:43 GMT</pubDate>
 </item>

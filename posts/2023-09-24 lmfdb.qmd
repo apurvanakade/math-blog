@@ -4,6 +4,7 @@ date: 2023-09-24 12:22:43
 categories:
   - database
   - number-theory
+  - math
 ---
 
 [LMFDB](https://www.lmfdb.org/)
