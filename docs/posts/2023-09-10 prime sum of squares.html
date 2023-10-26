@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-08-30">
+<meta name="dcterms.date" content="2023-09-10">
 
-<title>Scribbles - Group Exercise</title>
+<title>Scribbles - Every Prime \(\equiv 1 \mod 4\) Is a Sum of Two Squares</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,9 +63,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Scribbles - Group Exercise">
+<meta property="og:title" content="Scribbles - Every Prime \(\equiv 1 \mod 4\) Is a Sum of Two Squares">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="Scribbles">
 </head>
@@ -100,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Lean</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="https://apurvanakade.github.io/math-notes/" rel="" target="">
+ <span class="menu-text">Math Notes</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="https://apurvanakade.github.io/scribbles/" rel="" target="">
  <span class="menu-text">Scribbles</span></a>
   </li>  
@@ -110,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/apurvanakade/scribbles/" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/apurvanakade/math-notes/" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -132,9 +138,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Group Exercise</h1>
+<h1 class="title">Every Prime <span class="math inline">\(\equiv 1 \mod 4\)</span> Is a Sum of Two Squares</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">journal</div>
+    <div class="quarto-category">to read</div>
+    <div class="quarto-category">number theory</div>
+    <div class="quarto-category">elementary number theory</div>
   </div>
   </div>
 
@@ -146,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 30, 2023</p>
+      <p class="date">September 10, 2023</p>
     </div>
   </div>
   
@@ -156,14 +164,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I like to think that I am generally a very fit person. I exercise almost everyday and generally lead an active life. Just for fun, I recently tried a Yoga Sculpt class and it kicked my ass.</p>
-<p>This made me realize two things:</p>
-<ol type="1">
-<li>When working out alone, it’s easy to not be fully honest with oneself. I probably take longer breaks, get sidetracked by my phone, or choose lighter weights when I could handle heavier ones.</li>
-<li>We can often push ourselves more than we think. I never knew an hour-long HIIT session with weights, like Yoga Sculpt, was something I could do. I’m surprised I hadn’t tried it earlier.</li>
-</ol>
-<p>I once tried a yoga class via livestream, but it didn’t feel the same. The poses might have been identical, but the intensity was different.</p>
-<p>I’ve started to see the benefits of group classes. They push you harder and offer new experiences you might not encounter otherwise.</p>
+<p>I came across this “one sentence” proof that every prime congruent to 1 mod 4 can be written as a sum of two squares:</p>
+<p><a href="https://doi.org/10.2307/2323918">https://doi.org/10.2307/2323918</a></p>
+<p>The proof involves constructing the following cryptic involution <span class="math display">\[
+(x, y, z) \mapsto \begin{cases}(x+2 z, z, y-x-z) &amp; \text { if } x&lt;y-z \\ (2 y-x, y, x-y+z) &amp; \text { if } y-z&lt;x&lt;2 y \\ (x-2 y, x-y+z, y) &amp; \text { if } x&gt;2 y\end{cases}
+\]</span> on the set <span class="math inline">\(S=\left\{(x, y, z) \in \mathbb{N}^{3}: x^{2}+4 y z=p\right\}\)</span> and showing that the involution has exactly one fixed point <span class="math inline">\((1, 1, k)\)</span> if and only if <span class="math inline">\(p\)</span> is a prime of the form <span class="math inline">\(4k + 1\)</span>.</p>
+<p>This implies that <span class="math inline">\(S\)</span> contains an odd number of elements and hence every involution of <span class="math inline">\(S\)</span> will have a fixed point. One involution of <span class="math inline">\(S\)</span> is <span class="math inline">\((x, y, z) \mapsto (x, z, y)\)</span> and a fixed point of this map gives a way of writing <span class="math inline">\(p\)</span> as a sum of two squares.</p>
+<p>The details do not seem too hard to check (I haven’t checked them though). The real question is - how did the authors come up with this mad involution?</p>
 
 
 

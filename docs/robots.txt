@@ -1,1 +1,1 @@
-Sitemap: https://apurvanakade.github.io/scribbles/sitemap.xml
+Sitemap: https://github.com/apurvanakade/math-notes/sitemap.xml

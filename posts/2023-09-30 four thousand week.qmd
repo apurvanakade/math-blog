@@ -1,4 +1,0 @@
----
-title: Four Thousand Weeks
-draft: true
----
