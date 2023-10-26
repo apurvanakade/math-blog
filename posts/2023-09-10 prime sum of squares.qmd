@@ -2,7 +2,7 @@
 title: Every Prime $\equiv 1 \mod 4$ Is a Sum of Two Squares
 date: 2023-09-10 15:35:44
 categories: 
-  - to read
+  - open
   - number theory
   - elementary number theory
 ---

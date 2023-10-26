@@ -1,5 +1,5 @@
 ---
-title: Math Notes
+title: Scribbles
 listing:
   fields: [date, title, description, categories, author]
   sort: "date desc"

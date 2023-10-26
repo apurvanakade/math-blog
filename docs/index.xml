@@ -10,7 +10,31 @@
 <atom:link href="https://github.com/apurvanakade/math-notes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Wed, 18 Oct 2023 20:58:33 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Oct 2023 13:01:26 GMT</lastBuildDate>
+<item>
+  <title>Logarithms and primes</title>
+  <link>https://github.com/apurvanakade/math-notes/posts/2023-10-26 ln series.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I came across <a href="https://youtu.be/YAsHGOwB408?si=Cwpk8X24xNNh2OS9">this video</a> by NumberPhile and 3Blue1Brown about the density of primes that are 1 mod 4 vs the density of primes that are 3 mod 4. The main fact is quite cool but there was something that he said during in the middle of the video that I found more interesting.</p>
+<p>Define <img src="https://latex.codecogs.com/png.latex?%5Cchi%20:%20%5Cmathbb%7BN%7D%20%5Cto%20%5C%7B-1,%200,%201%5C%7D"> as <img src="https://latex.codecogs.com/png.latex?%0A%5Cchi(n)%20=%0A%5Cbegin%7Bcases%7D%0A1%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20%5Cequiv%201%20%5Cmod%204%20%5C%5C%0A-1%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20%5Cequiv%203%20%5Cmod%204%20%5C%5C%0A0%20%20&amp;%20%5Ctext%7B%20otherwise.%20%7D%0A%5Cend%7Bcases%7D%0A"> The first interesting fact that I do not know how to prove: <img src="https://latex.codecogs.com/png.latex?%0A%5Csum%20%5Climits_%7Bn%20%5Cin%20%5Cmathbb%7BN%7D%7D%20%5Cdfrac%7B%5Cchi(n)%7D%7Bn%7D%20=%20%5Cdfrac%7B%5Cpi%7D%7B4%7D.%0A"> Note that the series is only conditionally convergent so the order of summation matters.</p>
+<p>Now modify the above function as follows <img src="https://latex.codecogs.com/png.latex?%5Cchi'%20:%20%5Cmathbb%7BN%7D%20%5Cto%20%5Cmathbb%7BN%7D"> as <img src="https://latex.codecogs.com/png.latex?%0A%5Cchi'(n)%20=%0A%5Cbegin%7Bcases%7D%0A%5Cdfrac%7B%5Cchi(n)%7D%7Bk%7D%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20=%20p%5Ek%20%5Ctext%7B%20for%20some%20prime%20%7D%20p%20%5C%5C%0A0%20%20&amp;%20%5Ctext%7B%20otherwise.%20%7D%0A%5Cend%7Bcases%7D%0A"> The even more interesting fact is: <img src="https://latex.codecogs.com/png.latex?%0A%5Csum%20%5Climits_%7Bn%20%5Cin%20%5Cmathbb%7BN%7D%7D%20%5Cdfrac%7B%5Cchi'(n)%7D%7Bn%7D%20=%20%5Cln%20%5Cleft(%5Cdfrac%7B%5Cpi%7D%7B4%7D%5Cright).%0A"></p>
+<p>There is apparently a similar result about the sums of squares of reciprocals of natural numbers. I’ll phrase a standard result about sums of squares as follows: <img src="https://latex.codecogs.com/png.latex?%0A%5Csum%20%5Climits_%7Bn%20%5Cin%20%5Cmathbb%7BN%7D%7D%20%5Cdfrac%7B%5Cxi(n)%7D%7Bn%7D%20=%20%5Cdfrac%7B%5Cpi%5E2%7D%7B6%7D%0A"> where <img src="https://latex.codecogs.com/png.latex?%5Cxi(n)%20=%201/n">. Then modifying the above function in a similar fashion <img src="https://latex.codecogs.com/png.latex?%0A%5Cxi'(n)%20=%0A%5Cbegin%7Bcases%7D%0A%5Cdfrac%7B%5Cxi(n)%7D%7Bk%7D%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20=%20p%5Ek%20%5Ctext%7B%20for%20some%20prime%20%7D%20p%20%5C%5C%0A0%20%20&amp;%20%5Ctext%7B%20otherwise.%20%7D%0A%5Cend%7Bcases%7D%0A"> gives us <img src="https://latex.codecogs.com/png.latex?%0A%5Csum%20%5Climits_%7Bn%20%5Cin%20%5Cmathbb%7BN%7D%7D%20%5Cdfrac%7B%5Cxi'(n)%7D%7Bn%7D%20=%20%5Cln%20%5Cleft(%5Cdfrac%7B%5Cpi%5E2%7D%7B6%7D%5Cright).%0A"></p>
+<p>Why does this work? What properties do we need the functions <img src="https://latex.codecogs.com/png.latex?%5Cchi"> and <img src="https://latex.codecogs.com/png.latex?%5Cxi"> to satisfy? Why do the modifications result in logarithms?</p>
+<p>My guess is that we need to rewrite the series multiplicatively somehow, possibly using primes, take it from there. These series above are of course some of the values of the Riemann Zeta function which we know how to write multiplicatively using primes.</p>
+
+
+
+ ]]></description>
+  <category>open</category>
+  <category>infinite series</category>
+  <category>primes</category>
+  <category>number theory</category>
+  <guid>https://github.com/apurvanakade/math-notes/posts/2023-10-26 ln series.html</guid>
+  <pubDate>Thu, 26 Oct 2023 13:01:26 GMT</pubDate>
+</item>
 <item>
   <title>How They Fool Ya (live) | Math parody of Hallelujah</title>
   <link>https://github.com/apurvanakade/math-notes/posts/2023-10-18 patterns fool ya.html</link>
@@ -221,7 +245,7 @@ View this post on Instagram
 
 
  ]]></description>
-  <category>to read</category>
+  <category>open</category>
   <category>number theory</category>
   <category>elementary number theory</category>
   <guid>https://github.com/apurvanakade/math-notes/posts/2023-09-10 prime sum of squares.html</guid>
