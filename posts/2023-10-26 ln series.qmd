@@ -4,8 +4,8 @@ date: 2023-10-26 09:01:26
 categories:
   - open
   - infinite series
-  - primes
   - number theory
+  - riemann zeta
 ---
 
 I came across [this video](https://youtu.be/YAsHGOwB408?si=Cwpk8X24xNNh2OS9) by NumberPhile and 3Blue1Brown about the density of primes that are 1 mod 4 vs the density of primes that are 3 mod 4. 

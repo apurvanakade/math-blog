@@ -18,15 +18,15 @@ website:
         href: https://apurvanakade.github.io/CV.html
     right:
       - icon: github
-        href: https://github.com/apurvanakade/math-notes/
+        href: https://github.com/apurvanakade/scribbles/
         aria-label: GitHub
   # sidebar: 
   #   style: floating
   #   search: true
   #   contents: auto
   open-graph: true
-  site-url: https://github.com/apurvanakade/math-notes/
-  repo-url: https://github.com/apurvanakade/math-notes/
+  site-url: https://github.com/apurvanakade/scribbles/
+  repo-url: https://github.com/apurvanakade/scribbles/
   search:
     type: overlay
     location: navbar
