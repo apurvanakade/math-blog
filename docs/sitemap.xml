@@ -2,42 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/apurvanakade/scribbles/index.html</loc>
-    <lastmod>2023-11-26T17:44:43.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-10-18 patterns fool ya.html</loc>
-    <lastmod>2023-11-26T17:44:42.044Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-24 tau.html</loc>
-    <lastmod>2023-11-26T17:44:41.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-16 when math becomes an art.html</loc>
-    <lastmod>2023-11-26T17:44:40.450Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-10-26 ln series.html</loc>
-    <lastmod>2023-11-26T17:44:39.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-29 integers.html</loc>
-    <lastmod>2023-11-26T17:44:39.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-21 history of math.html</loc>
-    <lastmod>2023-11-26T17:44:39.972Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-10 prime sum of squares.html</loc>
-    <lastmod>2023-11-26T17:44:40.848Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/apurvanakade/scribbles/posts/2023-11-26 combinatorial nullstellensatz.html</loc>
-    <lastmod>2023-11-26T17:44:41.675Z</lastmod>
+    <lastmod>2023-12-27T02:47:00.901Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-24 lmfdb.html</loc>
-    <lastmod>2023-11-26T17:44:42.429Z</lastmod>
+    <lastmod>2023-12-27T02:46:59.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</loc>
+    <lastmod>2023-12-27T02:46:58.416Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-30 loogle.html</loc>
+    <lastmod>2023-12-27T02:46:57.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-24 tau.html</loc>
+    <lastmod>2023-12-27T02:46:56.825Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-16 when math becomes an art.html</loc>
+    <lastmod>2023-12-27T02:46:56.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-09 llm.html</loc>
+    <lastmod>2023-12-27T02:46:55.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-04 leandojo.html</loc>
+    <lastmod>2023-12-27T02:46:54.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-11-01 paperproof.html</loc>
+    <lastmod>2023-12-27T02:46:53.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-29 integers.html</loc>
+    <lastmod>2023-12-27T02:46:53.951Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-10-26 ln series.html</loc>
+    <lastmod>2023-12-27T02:46:54.744Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-21 history of math.html</loc>
+    <lastmod>2023-12-27T02:46:55.535Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-10 prime sum of squares.html</loc>
+    <lastmod>2023-12-27T02:46:56.415Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-11-01 terrytao.html</loc>
+    <lastmod>2023-12-27T02:46:57.210Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-11-26 combinatorial nullstellensatz.html</loc>
+    <lastmod>2023-12-27T02:46:58.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-10-18 patterns fool ya.html</loc>
+    <lastmod>2023-12-27T02:46:58.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-08-30 tactics.html</loc>
+    <lastmod>2023-12-27T02:46:59.559Z</lastmod>
   </url>
 </urlset>

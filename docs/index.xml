@@ -50,6 +50,47 @@
   <pubDate>Sun, 26 Nov 2023 17:27:01 GMT</pubDate>
 </item>
 <item>
+  <title>Terrence Tao - Lean</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-11-01 terrytao.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Terry Tao posted on <a href="https://mathstodon.xyz/@tao/111287749336059662">Mastodon</a> that he found a bug in a proof in one of <a href="https://arxiv.org/pdf/2310.05328.pdf">his papers</a> thanks to trying to formalize it in Lean. This is an excellent use case of Lean and tbh the only one that I think is going to be taken seriously for a while.</p>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <category>mathblog</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-11-01 terrytao.html</guid>
+  <pubDate>Wed, 01 Nov 2023 17:21:33 GMT</pubDate>
+</item>
+<item>
+  <title>PaperProof</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-11-01 paperproof.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This looks like a really cool tool for visualizing proofs in Lean:</p>
+<p><a href="https://github.com/Paper-Proof/paperproof">https://github.com/Paper-Proof/paperproof</a></p>
+<p><a href="https://lakesare.brick.do/lean-coq-isabel-and-their-proof-trees-yjnd2O2RgxwV">https://lakesare.brick.do/lean-coq-isabel-and-their-proof-trees-yjnd2O2RgxwV</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m6MuiHQmULY?si=QvagfImqDGS4qFo_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<p>This will probably get unweildy very fast for even moderately-sized proofs. But I suspect that it’ll be of great help for beginners.</p>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <category>vscode extension</category>
+  <category>visualization</category>
+  <category>teaching</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-11-01 paperproof.html</guid>
+  <pubDate>Wed, 01 Nov 2023 17:18:16 GMT</pubDate>
+</item>
+<item>
   <title>Logarithms and primes</title>
   <link>https://github.com/apurvanakade/scribbles/posts/2023-10-26 ln series.html</link>
   <description><![CDATA[ 
@@ -133,6 +174,29 @@
   <category>number theory</category>
   <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-24 lmfdb.html</guid>
   <pubDate>Sun, 24 Sep 2023 16:22:43 GMT</pubDate>
+</item>
+<item>
+  <title>Automated Mathematics and the Reconfiguration of Proof and Labor</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I came across this essay by Rodrigo Ochigame exploring possible future impact of math formalization and automation.</p>
+<p><a href="https://arxiv.org/abs/2309.11457v1">Automated Mathematics and the Reconfiguration of Proof and Labor</a></p>
+<p>Abstract:</p>
+<blockquote class="blockquote">
+<p>This essay examines how automation has reconfigured mathematical proof and labor, and what might happen in the future. It discusses practical standards of proof, distinguishes between prominent forms of automation in research, provides critiques of recurring assumptions, and asks how automation might reshape economies of labor and credit.</p>
+</blockquote>
+
+
+
+ ]]></description>
+  <category>to-read</category>
+  <category>philosophy</category>
+  <category>essay</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</guid>
+  <pubDate>Sun, 24 Sep 2023 16:14:03 GMT</pubDate>
 </item>
 <item>
   <title>When Math Becomes an Art</title>
@@ -288,6 +352,98 @@ View this post on Instagram
   <category>elementary number theory</category>
   <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-10 prime sum of squares.html</guid>
   <pubDate>Sun, 10 Sep 2023 19:35:44 GMT</pubDate>
+</item>
+<item>
+  <title>llmstep and LeanInfer</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-09 llm.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I came across two LLM based tactics for Lean</p>
+<ul>
+<li><a href="https://github.com/wellecks/llmstep">llmstep: [L]LM proofstep suggestions in Lean</a></li>
+<li><a href="https://github.com/lean-dojo/LeanInfer">LeanInfer: Neural Network Inference in Lean 4</a></li>
+</ul>
+<p>They both use <a href="../posts/2023-09-04 leandojo.html">LeanDojo</a> somehow and I don’t understand the difference between the two. Unfortunately, I do not know enough about LLM and AI to tell if this is actually good or just hot gas.</p>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <category>ML</category>
+  <category>tactics</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-09 llm.html</guid>
+  <pubDate>Sun, 10 Sep 2023 02:37:41 GMT</pubDate>
+</item>
+<item>
+  <title>LeanDojo</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-04 leandojo.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This was posted a while back on the Lean Zulip:</p>
+<p><a href="https://leandojo.org/">LeanDojo</a></p>
+<p><a href="https://arxiv.org/abs/2306.15626">LeanDojo: Theorem Proving with Retrieval-Augmented Language Models</a></p>
+<p>According to their description, LeanDojo is an open-source Lean playground consisting of toolkits, data, models, and benchmarks. Plus they also provide an LLM-based prover and a chatGPT plugin. All of this looks amazing and something worth learning more about.</p>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <category>ML</category>
+  <category>webapp</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-04 leandojo.html</guid>
+  <pubDate>Mon, 04 Sep 2023 20:22:19 GMT</pubDate>
+</item>
+<item>
+  <title>Short tactics tutorial</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-30 tactics.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I have always wanted to learn tactics writing in Lean. But for whatever reason, none of the tutorials that exist online have been helpful. I suspect that the best way to learn to write tactics to play around and modify the existing ones. I came across this short, 4-page tactics tutorial that looks promising. I’ll give it a go when I get some time.</p>
+<ul>
+<li><a href="https://www.vladasedlacek.cz/en/posts/lean-01-intro">https://www.vladasedlacek.cz/en/posts/lean-01-intro</a></li>
+<li><a href="https://www.vladasedlacek.cz/en/posts/lean-02-demo">https://www.vladasedlacek.cz/en/posts/lean-02-demo</a></li>
+<li><a href="https://www.vladasedlacek.cz/en/posts/lean-03-tactics">https://www.vladasedlacek.cz/en/posts/lean-03-tactics</a></li>
+<li><a href="https://www.vladasedlacek.cz/en/posts/lean-04-linperm">https://www.vladasedlacek.cz/en/posts/lean-04-linperm</a></li>
+</ul>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <category>tactics</category>
+  <category>tutorial</category>
+  <category>to-read</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-30 tactics.html</guid>
+  <pubDate>Fri, 01 Sep 2023 01:13:45 GMT</pubDate>
+</item>
+<item>
+  <title>Loogle!</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-30 loogle.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>An improved search engine for Lean:</p>
+<ul>
+<li><a href="https://loogle.lean-fro.org/">https://loogle.lean-fro.org/</a></li>
+<li><a href="https://github.com/nomeata/loogle">https://github.com/nomeata/loogle</a></li>
+</ul>
+<p>I haven’t used it yet but it looks promising. I personally don’t like the search on <a href="https://leanprover-community.github.io/mathlib4_docs/index.html">mathlib4_docs</a> and find it very glitchy, slow, and cumbersome. Normally, I just use <code>grep</code> in VSCode instead, which is better but still very cumbersome and requires a lot of regex jujitsu. Hopefully this search is better and more useful. Looking forward to trying it out.</p>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <category>search</category>
+  <category>webapp</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-30 loogle.html</guid>
+  <pubDate>Thu, 31 Aug 2023 20:37:51 GMT</pubDate>
 </item>
 <item>
   <title>Etymology of Integer</title>
