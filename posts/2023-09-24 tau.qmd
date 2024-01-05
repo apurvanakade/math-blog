@@ -4,7 +4,6 @@ date: 2023-09-24 12:37:29
 categories:
   - funny
   - database
-  - to read
 ---
 
 [$\tau$ manifesto](https://tauday.com/tau-manifesto)
