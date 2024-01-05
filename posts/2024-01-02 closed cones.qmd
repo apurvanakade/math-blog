@@ -2,7 +2,6 @@
 title: Closed Convex Cones in LP
 date: 2024-01-02 00:13:03
 categories:
-  - math 
   - analysis
   - linear programming
   - convex analysis
