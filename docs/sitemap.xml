@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/apurvanakade/scribbles/index.html</loc>
-    <lastmod>2024-01-05T02:58:53.609Z</lastmod>
+    <lastmod>2024-01-08T05:42:21.430Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/apurvanakade/scribbles/posts/2023-09-24 lmfdb.html</loc>
@@ -71,5 +71,9 @@
   <url>
     <loc>https://github.com/apurvanakade/scribbles/posts/2024-01-02 closed cones.html</loc>
     <lastmod>2024-01-05T02:58:52.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/scribbles/posts/2023-01-08 sudoku.html</loc>
+    <lastmod>2024-01-08T05:42:19.907Z</lastmod>
   </url>
 </urlset>

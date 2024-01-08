@@ -10,7 +10,26 @@
 <atom:link href="https://github.com/apurvanakade/scribbles/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Tue, 02 Jan 2024 05:13:03 GMT</lastBuildDate>
+<lastBuildDate>Mon, 08 Jan 2024 05:37:57 GMT</lastBuildDate>
+<item>
+  <title>Phistomephel Ring in Sudoku</title>
+  <link>https://github.com/apurvanakade/scribbles/posts/2023-01-08 sudoku.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Came across this really cool short video about identities in a Sudoku square:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pezlnN4X52g?si=uacN45qCCbdzMhka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<p>It is such a simple identity yet something that I had not noticed myself before. Makes me wonder what other subset sum identities are there in a Sudoku? Is this a linear algebra problem? Are we looking for interesting elements in the kernel of some maps?</p>
+
+
+
+ ]]></description>
+  <category>sudoku</category>
+  <guid>https://github.com/apurvanakade/scribbles/posts/2023-01-08 sudoku.html</guid>
+  <pubDate>Mon, 08 Jan 2024 05:37:57 GMT</pubDate>
+</item>
 <item>
   <title>Closed Convex Cones in LP</title>
   <link>https://github.com/apurvanakade/scribbles/posts/2024-01-02 closed cones.html</link>
