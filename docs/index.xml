@@ -5,15 +5,15 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Scribbles</title>
-<link>https://github.com/apurvanakade/scribbles/index.html</link>
-<atom:link href="https://github.com/apurvanakade/scribbles/index.xml" rel="self" type="application/rss+xml"/>
+<title>Math Blog</title>
+<link>https://github.com/apurvanakade/math-blog/index.html</link>
+<atom:link href="https://github.com/apurvanakade/math-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
 <lastBuildDate>Sat, 08 Jun 2024 16:33:01 GMT</lastBuildDate>
 <item>
   <title>Pythagoras using Hilbert 90</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2024-05-08 pythagoras hilbert 90.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2024-05-08 pythagoras hilbert 90.html</link>
   <description><![CDATA[ 
 
 
@@ -28,12 +28,12 @@
 
  ]]></description>
   <category>abstract algebra</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2024-05-08 pythagoras hilbert 90.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2024-05-08 pythagoras hilbert 90.html</guid>
   <pubDate>Sat, 08 Jun 2024 16:33:01 GMT</pubDate>
 </item>
 <item>
   <title>Phistomephel Ring in Sudoku</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-01-08 sudoku.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-01-08 sudoku.html</link>
   <description><![CDATA[ 
 
 
@@ -47,12 +47,12 @@
 
  ]]></description>
   <category>sudoku</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-01-08 sudoku.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-01-08 sudoku.html</guid>
   <pubDate>Mon, 08 Jan 2024 05:37:57 GMT</pubDate>
 </item>
 <item>
   <title>Closed Convex Cones in LP</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2024-01-02 closed cones.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2024-01-02 closed cones.html</link>
   <description><![CDATA[ 
 
 
@@ -71,12 +71,12 @@
   <category>analysis</category>
   <category>linear programming</category>
   <category>convex analysis</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2024-01-02 closed cones.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2024-01-02 closed cones.html</guid>
   <pubDate>Tue, 02 Jan 2024 05:13:03 GMT</pubDate>
 </item>
 <item>
   <title>Combinatorial Nullstellensatz</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-11-26 combinatorial nullstellensatz.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-11-26 combinatorial nullstellensatz.html</link>
   <description><![CDATA[ 
 
 
@@ -109,12 +109,12 @@
   <category>combinatorics</category>
   <category>problems</category>
   <category>todo</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-11-26 combinatorial nullstellensatz.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-11-26 combinatorial nullstellensatz.html</guid>
   <pubDate>Sun, 26 Nov 2023 17:27:01 GMT</pubDate>
 </item>
 <item>
   <title>Terrence Tao - Lean</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-11-01 terrytao.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-11-01 terrytao.html</link>
   <description><![CDATA[ 
 
 
@@ -126,12 +126,12 @@
  ]]></description>
   <category>lean</category>
   <category>mathblog</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-11-01 terrytao.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-11-01 terrytao.html</guid>
   <pubDate>Wed, 01 Nov 2023 17:21:33 GMT</pubDate>
 </item>
 <item>
   <title>PaperProof</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-11-01 paperproof.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-11-01 paperproof.html</link>
   <description><![CDATA[ 
 
 
@@ -150,12 +150,12 @@
   <category>vscode extension</category>
   <category>visualization</category>
   <category>teaching</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-11-01 paperproof.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-11-01 paperproof.html</guid>
   <pubDate>Wed, 01 Nov 2023 17:18:16 GMT</pubDate>
 </item>
 <item>
   <title>Logarithms and primes</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-10-26 ln series.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-10-26 ln series.html</link>
   <description><![CDATA[ 
 
 
@@ -174,12 +174,12 @@
   <category>infinite series</category>
   <category>number theory</category>
   <category>riemann zeta</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-10-26 ln series.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-10-26 ln series.html</guid>
   <pubDate>Thu, 26 Oct 2023 13:01:26 GMT</pubDate>
 </item>
 <item>
   <title>How They Fool Ya (live) | Math parody of Hallelujah</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-10-18 patterns fool ya.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-10-18 patterns fool ya.html</link>
   <description><![CDATA[ 
 
 
@@ -192,12 +192,12 @@
 
  ]]></description>
   <category>funny</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-10-18 patterns fool ya.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-10-18 patterns fool ya.html</guid>
   <pubDate>Wed, 18 Oct 2023 20:58:33 GMT</pubDate>
 </item>
 <item>
   <title>The Tau Manifesto</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-24 tau.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-09-24 tau.html</link>
   <description><![CDATA[ 
 
 
@@ -213,12 +213,12 @@
  ]]></description>
   <category>funny</category>
   <category>database</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-24 tau.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-09-24 tau.html</guid>
   <pubDate>Sun, 24 Sep 2023 16:37:29 GMT</pubDate>
 </item>
 <item>
   <title>The L-functions and modular forms database (LMFDB)</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-24 lmfdb.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-09-24 lmfdb.html</link>
   <description><![CDATA[ 
 
 
@@ -234,12 +234,12 @@
  ]]></description>
   <category>database</category>
   <category>number theory</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-24 lmfdb.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-09-24 lmfdb.html</guid>
   <pubDate>Sun, 24 Sep 2023 16:22:43 GMT</pubDate>
 </item>
 <item>
   <title>Automated Mathematics and the Reconfiguration of Proof and Labor</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</link>
   <description><![CDATA[ 
 
 
@@ -257,12 +257,12 @@
   <category>to-read</category>
   <category>philosophy</category>
   <category>essay</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</guid>
   <pubDate>Sun, 24 Sep 2023 16:14:03 GMT</pubDate>
 </item>
 <item>
   <title>When Math Becomes an Art</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-16 when math becomes an art.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-09-16 when math becomes an art.html</link>
   <description><![CDATA[ 
 
 
@@ -390,12 +390,12 @@ View this post on Instagram
 
  ]]></description>
   <category>poem</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-16 when math becomes an art.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-09-16 when math becomes an art.html</guid>
   <pubDate>Sun, 17 Sep 2023 00:15:39 GMT</pubDate>
 </item>
 <item>
   <title>Every Prime \(\equiv 1 \mod 4\) Is a Sum of Two Squares</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-10 prime sum of squares.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-09-10 prime sum of squares.html</link>
   <description><![CDATA[ 
 
 
@@ -412,12 +412,12 @@ View this post on Instagram
   <category>todo</category>
   <category>number theory</category>
   <category>elementary number theory</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-10 prime sum of squares.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-09-10 prime sum of squares.html</guid>
   <pubDate>Sun, 10 Sep 2023 19:35:44 GMT</pubDate>
 </item>
 <item>
   <title>llmstep and LeanInfer</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-09 llm.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-09-09 llm.html</link>
   <description><![CDATA[ 
 
 
@@ -435,12 +435,12 @@ View this post on Instagram
   <category>lean</category>
   <category>ML</category>
   <category>tactics</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-09 llm.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-09-09 llm.html</guid>
   <pubDate>Sun, 10 Sep 2023 02:37:41 GMT</pubDate>
 </item>
 <item>
   <title>LeanDojo</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-09-04 leandojo.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-09-04 leandojo.html</link>
   <description><![CDATA[ 
 
 
@@ -456,12 +456,12 @@ View this post on Instagram
   <category>lean</category>
   <category>ML</category>
   <category>webapp</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-09-04 leandojo.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-09-04 leandojo.html</guid>
   <pubDate>Mon, 04 Sep 2023 20:22:19 GMT</pubDate>
 </item>
 <item>
   <title>Short tactics tutorial</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-30 tactics.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-08-30 tactics.html</link>
   <description><![CDATA[ 
 
 
@@ -481,12 +481,12 @@ View this post on Instagram
   <category>tactics</category>
   <category>tutorial</category>
   <category>to-read</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-30 tactics.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-30 tactics.html</guid>
   <pubDate>Fri, 01 Sep 2023 01:13:45 GMT</pubDate>
 </item>
 <item>
   <title>Loogle!</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-30 loogle.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-08-30 loogle.html</link>
   <description><![CDATA[ 
 
 
@@ -504,12 +504,12 @@ View this post on Instagram
   <category>lean</category>
   <category>search</category>
   <category>webapp</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-30 loogle.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-30 loogle.html</guid>
   <pubDate>Thu, 31 Aug 2023 20:37:51 GMT</pubDate>
 </item>
 <item>
   <title>Etymology of Integer</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-29 integers.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-08-29 integers.html</link>
   <description><![CDATA[ 
 
 
@@ -521,12 +521,12 @@ View this post on Instagram
 
  ]]></description>
   <category>history of math</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-29 integers.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-29 integers.html</guid>
   <pubDate>Tue, 29 Aug 2023 13:13:31 GMT</pubDate>
 </item>
 <item>
   <title>History-of-Math Resources</title>
-  <link>https://github.com/apurvanakade/scribbles/posts/2023-08-21 history of math.html</link>
+  <link>https://github.com/apurvanakade/math-blog/posts/2023-08-21 history of math.html</link>
   <description><![CDATA[ 
 
 
@@ -550,7 +550,7 @@ View this post on Instagram
 </section></div> ]]></description>
   <category>resources</category>
   <category>history of math</category>
-  <guid>https://github.com/apurvanakade/scribbles/posts/2023-08-21 history of math.html</guid>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-21 history of math.html</guid>
   <pubDate>Tue, 22 Aug 2023 02:30:11 GMT</pubDate>
 </item>
 </channel>

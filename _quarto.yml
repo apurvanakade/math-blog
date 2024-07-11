@@ -3,28 +3,28 @@ project:
   output-dir: docs
 
 website:
-  title: "Scribbles"
+  title: "Math Blog"
   navbar:
     left:
       - text: Home
         href: https://apurvanakade.github.io/
+      - text: Courses
+        href: https://apurvanakade.github.io/courses.html
       - text: Notes
-        href: https://apurvanakade.github.io/notes.html
-      - text: Scribbles
-        href: https://apurvanakade.github.io/scribbles/
+        href: https://apurvanakade.github.io/math-blog/
       - text: CV
         href: https://apurvanakade.github.io/CV.html
     right:
       - icon: github
-        href: https://github.com/apurvanakade/scribbles/
+        href: https://github.com/apurvanakade/math-blog/
         aria-label: GitHub
   # sidebar: 
   #   style: floating
   #   search: true
   #   contents: auto
   open-graph: true
-  site-url: https://github.com/apurvanakade/scribbles/
-  repo-url: https://github.com/apurvanakade/scribbles/
+  site-url: https://github.com/apurvanakade/math-blog/
+  repo-url: https://github.com/apurvanakade/math-blog/
   search:
     type: overlay
     location: navbar
