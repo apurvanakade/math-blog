@@ -1,5 +1,5 @@
 ---
-title: Scribbles
+title: Math Blog
 listing:
   fields: [date, title, description, categories, author]
   sort: "date desc"
