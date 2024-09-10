@@ -10,7 +10,28 @@
 <atom:link href="https://github.com/apurvanakade/math-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sat, 08 Jun 2024 16:33:01 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Sep 2024 16:51:09 GMT</lastBuildDate>
+<item>
+  <title>Mir Publications</title>
+  <link>https://github.com/apurvanakade/math-blog/posts/2024-09-10 mir publications.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I loathe American textbooks from the bottom of my heart. I learned math from these tiny 100 page books that made the point directly and succinctly and trusted the reader’s intelligence to figure out the rest. Textbooks here seem to be written for people who are incapable of thinking for themselves.</p>
+<p>To be great surprise I discovered this website containing MIR publication books:</p>
+<p><a href="https://archive.org/details/mir-titles">https://archive.org/details/mir-titles</a></p>
+<p>The first book listed (at least for me) is <em>Irodov’s Physics</em>, every engineering student’s nightmare and yet one of the best books to learn physics from. I hope younger students find these and I myself am looking forward to reading some of the old gems and finding some new ones.</p>
+<p>(Side note: Please <a href="https://archive.org/donate">donate to the Internet Archive</a>.)</p>
+
+
+
+ ]]></description>
+  <category>textbooks</category>
+  <category>russian</category>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2024-09-10 mir publications.html</guid>
+  <pubDate>Tue, 10 Sep 2024 16:51:09 GMT</pubDate>
+</item>
 <item>
   <title>Pythagoras using Hilbert 90</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2024-05-08 pythagoras hilbert 90.html</link>

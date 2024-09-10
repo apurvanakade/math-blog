@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/apurvanakade/math-blog/index.html</loc>
-    <lastmod>2024-07-11T01:19:17.800Z</lastmod>
+    <lastmod>2024-09-10T17:03:59.664Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/apurvanakade/math-blog/posts/2023-09-24 lmfdb.html</loc>
@@ -79,5 +79,9 @@
   <url>
     <loc>https://github.com/apurvanakade/math-blog/posts/2023-08-30 tactics.html</loc>
     <lastmod>2024-07-11T01:19:16.257Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/math-blog/posts/2024-09-10 mir publications.html</loc>
+    <lastmod>2024-09-10T17:03:58.568Z</lastmod>
   </url>
 </urlset>
