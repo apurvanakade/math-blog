@@ -165,6 +165,6 @@
     "href": "posts/2024-11-06 Lean rubiks cube.html",
     "title": "Rubik’s Cube in Lean",
     "section": "",
-    "text": "This Github repo contains the proof that there are \\(2^{12} \\times 3^{8} \\times 8! \\times 11!\\) Rubik’s cubes.\nWhat! This is the most amazing thing I’ve read in a long time. What is the source of this number? And it’s verified in Lean!!!"
+    "text": "This Github repo contains the proof that there are \\(2^{12} \\times 3^{8} \\times 8! \\times 11!\\) Rubik’s cubes:\nhttps://github.com/vihdzp/rubik-lean4\nWhat! This is the most amazing thing I’ve read in a long time. What is the reason of this number? And it’s verified in Lean!!!"
   }
 ]
