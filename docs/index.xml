@@ -10,7 +10,23 @@
 <atom:link href="https://github.com/apurvanakade/math-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Tue, 10 Sep 2024 16:51:09 GMT</lastBuildDate>
+<lastBuildDate>Thu, 07 Nov 2024 02:28:19 GMT</lastBuildDate>
+<item>
+  <title>Rubik’s Cube in Lean</title>
+  <link>https://github.com/apurvanakade/math-blog/posts/2024-11-06 Lean rubiks cube.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This Github repo contains the proof that there are <img src="https://latex.codecogs.com/png.latex?2%5E%7B12%7D%20%5Ctimes%203%5E%7B8%7D%20%5Ctimes%208!%20%5Ctimes%2011!"> Rubik’s cubes.</p>
+
+
+
+ ]]></description>
+  <category>lean</category>
+  <guid>https://github.com/apurvanakade/math-blog/posts/2024-11-06 Lean rubiks cube.html</guid>
+  <pubDate>Thu, 07 Nov 2024 02:28:19 GMT</pubDate>
+</item>
 <item>
   <title>Mir Publications</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2024-09-10 mir publications.html</link>
@@ -545,35 +561,6 @@ View this post on Instagram
   <category>history of math</category>
   <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-29 integers.html</guid>
   <pubDate>Tue, 29 Aug 2023 13:13:31 GMT</pubDate>
-</item>
-<item>
-  <title>History-of-Math Resources</title>
-  <link>https://github.com/apurvanakade/math-blog/posts/2023-08-21 history of math.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>I’ve always been fascinated by the history of mathematics. Some of the classic and dramatic discoveries I read a kid were those of non-Euclidean geometry, Galois theory, the proof of Fermat’s last theorem, as well as Cantor and Gödel’s breakthroughs in logic. However, some of the more commonplace achievements, such as the invention of calculus by Newton and its subsequent formalization a century later through <img src="https://latex.codecogs.com/png.latex?%5Cepsilon%20%5Cdelta"> proofs, also possess a very intriguing narrative that involves not only mathematicians but also philosophers and theologians<sup>1</sup>.</p>
-<p>I was pleasantly surprised to come across the following resources for learning mathematical concepts through historical sources:</p>
-<ul>
-<li><a href="https://www.cs.nmsu.edu/historical-projects/projects.php">https://www.cs.nmsu.edu/historical-projects/projects.php</a></li>
-<li><a href="https://digitalcommons.ursinus.edu/triumphs/">https://digitalcommons.ursinus.edu/triumphs/</a></li>
-</ul>
-<p>Apparently, these resources are part of an NSF-funded project <em>Transforming Instruction In Undergraduate Mathematics Via Primary Historical Sources</em> <a href="https://blogs.ursinus.edu/triumphs/">TRIUMPHS</a>. I hope I find the time to read through with these materials.</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p><a href="https://www.jstor.org/stable/2975545">Who Gave You the Epsilon? Cauchy and the Origins of Rigorous Calculus Judith V. Grabiner</a>↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>resources</category>
-  <category>history of math</category>
-  <guid>https://github.com/apurvanakade/math-blog/posts/2023-08-21 history of math.html</guid>
-  <pubDate>Tue, 22 Aug 2023 02:30:11 GMT</pubDate>
 </item>
 </channel>
 </rss>
