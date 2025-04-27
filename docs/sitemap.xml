@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/apurvanakade/math-blog/index.html</loc>
-    <lastmod>2024-11-07T02:30:33.470Z</lastmod>
+    <lastmod>2025-04-27T02:47:52.059Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/apurvanakade/math-blog/posts/2023-09-24 lmfdb.html</loc>
@@ -87,5 +87,9 @@
   <url>
     <loc>https://github.com/apurvanakade/math-blog/posts/2024-11-06 Lean rubiks cube.html</loc>
     <lastmod>2024-11-07T02:36:33.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/apurvanakade/math-blog/posts/2025-04-26 matharenaai.html</loc>
+    <lastmod>2025-04-27T02:47:50.853Z</lastmod>
   </url>
 </urlset>
