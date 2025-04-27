@@ -9,12 +9,13 @@
 <link>https://github.com/apurvanakade/math-blog/</link>
 <atom:link href="https://github.com/apurvanakade/math-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.43</generator>
+<generator>quarto-1.7.29</generator>
 <lastBuildDate>Sun, 27 Apr 2025 02:41:39 GMT</lastBuildDate>
 <item>
   <title>Math Arena AI</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2025-04-26 matharenaai.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -41,6 +42,7 @@
 
 
 
+
 <p>This Github repo contains the proof that there are <img src="https://latex.codecogs.com/png.latex?2%5E%7B12%7D%20%5Ctimes%203%5E%7B8%7D%20%5Ctimes%208!%20%5Ctimes%2011!"> Rubik’s cubes:</p>
 <p><a href="https://github.com/vihdzp/rubik-lean4">https://github.com/vihdzp/rubik-lean4</a></p>
 <p>What! This is the most amazing thing I’ve read in a long time. What is the reason of this number? And it’s verified in Lean!!!</p>
@@ -57,6 +59,7 @@
   <title>Mir Publications</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2024-09-10 mir publications.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -84,6 +87,7 @@
 
 
 
+
 <p>Dummit and Foote has a fun way of classifying Pythagorean triples. It is a classic fact that if <img src="https://latex.codecogs.com/png.latex?(a,%20b,%20c)"> is a reduced Pythagorean triple then there exists integers <img src="https://latex.codecogs.com/png.latex?m,%20n"> such that</p>
 <p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign*%7D%0A%20%20a%20&amp;=%20m%5E2%20-%20n%5E2,%20%5C%5C%0A%20%20b%20&amp;=%202mn,%20%5C%5C%0A%20%20c%20&amp;=%20m%5E2%20+%20n%5E2.%0A%5Cend%7Balign*%7D%0A"></p>
 <p>To prove this using Hilbert’s 90, first we change the problem to rational numbers i.e. let <img src="https://latex.codecogs.com/png.latex?a,%20b%5Cin%20%5Cmathbb%7BQ%7D"> be such that <img src="https://latex.codecogs.com/png.latex?a%5E2%20+%20b%5E2%20=%201">. We want to show that there exists <img src="https://latex.codecogs.com/png.latex?m,%20n%20%5Cin%20%5Cmathbb%7BQ%7D"> such that <img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign*%7D%0A%20%20a%20&amp;=%20%5Cfrac%7Bm%5E2%20-%20n%5E2%7D%7Bm%5E2%20+%20n%5E2%7D,%20%5C%5C%0A%20%20b%20&amp;=%20%5Cfrac%7B2mn%7D%7Bm%5E2%20+%20n%5E2%7D.%0A%5Cend%7Balign*%7D%0A"></p>
@@ -105,6 +109,7 @@
 
 
 
+
 <p>Came across this really cool short video about identities in a Sudoku square:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pezlnN4X52g?si=uacN45qCCbdzMhka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
@@ -121,6 +126,7 @@
   <title>Closed Convex Cones in LP</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2024-01-02 closed cones.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -146,6 +152,7 @@
   <title>Combinatorial Nullstellensatz</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-11-26 combinatorial nullstellensatz.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -189,6 +196,7 @@
 
 
 
+
 <p>Terry Tao posted on <a href="https://mathstodon.xyz/@tao/111287749336059662">Mastodon</a> that he found a bug in a proof in one of <a href="https://arxiv.org/pdf/2310.05328.pdf">his papers</a> thanks to trying to formalize it in Lean. This is an excellent use case of Lean and tbh the only one that I think is going to be taken seriously for a while.</p>
 
 
@@ -203,6 +211,7 @@
   <title>PaperProof</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-11-01 paperproof.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -232,6 +241,7 @@
 
 
 
+
 <p>I came across <a href="https://youtu.be/YAsHGOwB408?si=Cwpk8X24xNNh2OS9">this video</a> by NumberPhile and 3Blue1Brown about the density of primes that are 1 mod 4 vs the density of primes that are 3 mod 4. The main fact is quite cool but there was something that he said during in the middle of the video that I found more interesting.</p>
 <p>Define <img src="https://latex.codecogs.com/png.latex?%5Cchi%20:%20%5Cmathbb%7BN%7D%20%5Cto%20%5C%7B-1,%200,%201%5C%7D"> as <img src="https://latex.codecogs.com/png.latex?%0A%5Cchi(n)%20=%0A%5Cbegin%7Bcases%7D%0A1%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20%5Cequiv%201%20%5Cmod%204%20%5C%5C%0A-1%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20%5Cequiv%203%20%5Cmod%204%20%5C%5C%0A0%20%20&amp;%20%5Ctext%7B%20otherwise.%20%7D%0A%5Cend%7Bcases%7D%0A"> The first interesting fact that I do not know how to prove: <img src="https://latex.codecogs.com/png.latex?%0A%5Csum%20%5Climits_%7Bn%20%5Cin%20%5Cmathbb%7BN%7D%7D%20%5Cdfrac%7B%5Cchi(n)%7D%7Bn%7D%20=%20%5Cdfrac%7B%5Cpi%7D%7B4%7D.%0A"> Note that the series is only conditionally convergent so the order of summation matters.</p>
 <p>Now modify the above function as follows <img src="https://latex.codecogs.com/png.latex?%5Cchi'%20:%20%5Cmathbb%7BN%7D%20%5Cto%20%5Cmathbb%7BN%7D"> as <img src="https://latex.codecogs.com/png.latex?%0A%5Cchi'(n)%20=%0A%5Cbegin%7Bcases%7D%0A%5Cdfrac%7B%5Cchi(n)%7D%7Bk%7D%20&amp;%20%5Ctext%7B%20if%20%7D%20n%20=%20p%5Ek%20%5Ctext%7B%20for%20some%20prime%20%7D%20p%20%5C%5C%0A0%20%20&amp;%20%5Ctext%7B%20otherwise.%20%7D%0A%5Cend%7Bcases%7D%0A"> The even more interesting fact is: <img src="https://latex.codecogs.com/png.latex?%0A%5Csum%20%5Climits_%7Bn%20%5Cin%20%5Cmathbb%7BN%7D%7D%20%5Cdfrac%7B%5Cchi'(n)%7D%7Bn%7D%20=%20%5Cln%20%5Cleft(%5Cdfrac%7B%5Cpi%7D%7B4%7D%5Cright).%0A"></p>
@@ -257,6 +267,7 @@
 
 
 
+
 <p>xD</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NOCsdhzo6Jg?si=wUVqPw_SDgGHMChv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
@@ -272,6 +283,7 @@
   <title>The Tau Manifesto</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-09-24 tau.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -298,6 +310,7 @@
 
 
 
+
 <p><a href="https://www.lmfdb.org/">LMFDB</a> <a href="https://github.com/LMFDB/lmfdb">Github</a></p>
 <blockquote class="blockquote">
 <p>The LMFDB is a database of mathematical objects arising in number theory and arithmetic geometry that illustrates some of the mathematical connections predicted by the Langlands program.</p>
@@ -316,6 +329,7 @@
   <title>Automated Mathematics and the Reconfiguration of Proof and Labor</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -340,6 +354,7 @@
   <title>When Math Becomes an Art</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-09-16 when math becomes an art.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -478,6 +493,7 @@ View this post on Instagram
 
 
 
+
 <p>I came across this “one sentence” proof that every prime congruent to 1 mod 4 can be written as a sum of two squares:</p>
 <p><a href="https://doi.org/10.2307/2323918">https://doi.org/10.2307/2323918</a></p>
 <p>The proof involves constructing the following cryptic involution <img src="https://latex.codecogs.com/png.latex?%0A(x,%20y,%20z)%20%5Cmapsto%20%5Cbegin%7Bcases%7D(x+2%20z,%20z,%20y-x-z)%20&amp;%20%5Ctext%20%7B%20if%20%7D%20x%3Cy-z%20%5C%5C%20(2%20y-x,%20y,%20x-y+z)%20&amp;%20%5Ctext%20%7B%20if%20%7D%20y-z%3Cx%3C2%20y%20%5C%5C%20(x-2%20y,%20x-y+z,%20y)%20&amp;%20%5Ctext%20%7B%20if%20%7D%20x%3E2%20y%5Cend%7Bcases%7D%0A"> on the set <img src="https://latex.codecogs.com/png.latex?S=%5Cleft%5C%7B(x,%20y,%20z)%20%5Cin%20%5Cmathbb%7BN%7D%5E%7B3%7D:%20x%5E%7B2%7D+4%20y%20z=p%5Cright%5C%7D"> and showing that the involution has exactly one fixed point <img src="https://latex.codecogs.com/png.latex?(1,%201,%20k)"> if and only if <img src="https://latex.codecogs.com/png.latex?p"> is a prime of the form <img src="https://latex.codecogs.com/png.latex?4k%20+%201">.</p>
@@ -497,6 +513,7 @@ View this post on Instagram
   <title>llmstep and LeanInfer</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-09-09 llm.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -525,6 +542,7 @@ View this post on Instagram
 
 
 
+
 <p>This was posted a while back on the Lean Zulip:</p>
 <p><a href="https://leandojo.org/">LeanDojo</a></p>
 <p><a href="https://arxiv.org/abs/2306.15626">LeanDojo: Theorem Proving with Retrieval-Augmented Language Models</a></p>
@@ -543,6 +561,7 @@ View this post on Instagram
   <title>Short tactics tutorial</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-08-30 tactics.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -569,6 +588,7 @@ View this post on Instagram
   <title>Loogle!</title>
   <link>https://github.com/apurvanakade/math-blog/posts/2023-08-30 loogle.html</link>
   <description><![CDATA[ 
+
 
 
 
