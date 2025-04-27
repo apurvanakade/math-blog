@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,19 +37,24 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -93,59 +99,86 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Math Blog" href="index.xml"><meta property="og:title" content="Math Blog">
-<meta property="og:site-name" content="Math Blog">
+<link rel="alternate" type="application/rss+xml" title="Math Blog" href="index.xml" data-external="1"><meta property="og:title" content="Math Blog">
+<meta property="og:site_name" content="Math Blog">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Math Blog</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://apurvanakade.github.io/" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="https://apurvanakade.github.io/"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://apurvanakade.github.io/notes.html" rel="" target="">
- <span class="menu-text">Class Notes</span></a>
+    <a class="nav-link" href="https://apurvanakade.github.io/notes.html"> 
+<span class="menu-text">Class Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://apurvanakade.github.io/math-blog/" rel="" target="">
- <span class="menu-text">Math Blog</span></a>
+    <a class="nav-link" href="https://apurvanakade.github.io/math-blog/"> 
+<span class="menu-text">Math Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://apurvanakade.github.io/CV.html" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="https://apurvanakade.github.io/CV.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/apurvanakade/math-blog/" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/apurvanakade/math-blog/"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -155,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LLM">LLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ML">ML <span class="quarto-category-count">(2)</span></div><div class="category" data-category="abstract algebra">abstract algebra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="combinatorics">combinatorics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="convex analysis">convex analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="database">database <span class="quarto-category-count">(2)</span></div><div class="category" data-category="elementary number theory">elementary number theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="essay">essay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="funny">funny <span class="quarto-category-count">(2)</span></div><div class="category" data-category="history of math">history of math <span class="quarto-category-count">(2)</span></div><div class="category" data-category="infinite series">infinite series <span class="quarto-category-count">(1)</span></div><div class="category" data-category="lean">lean <span class="quarto-category-count">(8)</span></div><div class="category" data-category="linear programming">linear programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mathblog">mathblog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="number theory">number theory <span class="quarto-category-count">(3)</span></div><div class="category" data-category="philosophy">philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="poem">poem <span class="quarto-category-count">(1)</span></div><div class="category" data-category="problems">problems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resources">resources <span class="quarto-category-count">(1)</span></div><div class="category" data-category="riemann zeta">riemann zeta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="russian">russian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="search">search <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sudoku">sudoku <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tactics">tactics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="teaching">teaching <span class="quarto-category-count">(1)</span></div><div class="category" data-category="textbooks">textbooks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="to-read">to-read <span class="quarto-category-count">(2)</span></div><div class="category" data-category="todo">todo <span class="quarto-category-count">(3)</span></div><div class="category" data-category="tutorial">tutorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vscode extension">vscode extension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="webapp">webapp <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExN">LLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TUw=">ML <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YWJzdHJhY3QlMjBhbGdlYnJh">abstract algebra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29tYmluYXRvcmljcw==">combinatorics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29udmV4JTIwYW5hbHlzaXM=">convex analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YWJhc2U=">database <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZWxlbWVudGFyeSUyMG51bWJlciUyMHRoZW9yeQ==">elementary number theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXNzYXk=">essay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZnVubnk=">funny <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aGlzdG9yeSUyMG9mJTIwbWF0aA==">history of math <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aW5maW5pdGUlMjBzZXJpZXM=">infinite series <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGVhbg==">lean <span class="quarto-category-count">(8)</span></div><div class="category" data-category="bGluZWFyJTIwcHJvZ3JhbW1pbmc=">linear programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0aGJsb2c=">mathblog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bnVtYmVyJTIwdGhlb3J5">number theory <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGhpbG9zb3BoeQ==">philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9lbQ==">poem <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvYmxlbXM=">problems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVzb3VyY2Vz">resources <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmllbWFubiUyMHpldGE=">riemann zeta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cnVzc2lhbg==">russian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VhcmNo">search <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3Vkb2t1">sudoku <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGFjdGljcw==">tactics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dGVhY2hpbmc=">teaching <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGV4dGJvb2tz">textbooks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dG8tcmVhZA==">to-read <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dG9kbw==">todo <span class="quarto-category-count">(3)</span></div><div class="category" data-category="dHV0b3JpYWw=">tutorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlzdWFsaXphdGlvbg==">visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dnNjb2RlJTIwZXh0ZW5zaW9u">vscode extension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2ViYXBw">webapp <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -166,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -174,7 +207,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -182,730 +217,642 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="lean,AI,LLM" data-listing-date-sort="1745721699000" data-listing-file-modified-sort="1745722062541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="bGVhbiUyQ0FJJTJDTExN" data-listing-date-sort="1745721699000" data-listing-file-modified-sort="1745722062541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
 <div class="body">
-<a href="./posts/2025-04-26 matharenaai.html">
 <h3 class="no-anchor listing-title">
-Math Arena AI
+<a href="./posts/2025-04-26 matharenaai.html" class="no-external">Math Arena AI</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2025-04-26 matharenaai.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
 AI
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('LLM'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">
 LLM
 </div>
 </div>
-<a href="./posts/2025-04-26 matharenaai.html">
 <div class="listing-description">
-I was doing some research for a talk and came across this website for recording AI results on math problems: https://matharena.ai/
+<a href="./posts/2025-04-26 matharenaai.html" class="no-external">I was doing some research for a talk and came across this website for recording AI results on math problems: https://matharena.ai/</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2025-04-26 matharenaai.html">
+<a href="./posts/2025-04-26 matharenaai.html" class="no-external">
 <div class="listing-date">
 Apr 26, 2025
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="lean" data-listing-date-sort="1730946499000" data-listing-file-modified-sort="1730946992475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="bGVhbg==" data-listing-date-sort="1730946499000" data-listing-file-modified-sort="1730946992475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
 <div class="body">
-<a href="./posts/2024-11-06 Lean rubiks cube.html">
 <h3 class="no-anchor listing-title">
-Rubik’s Cube in Lean
+<a href="./posts/2024-11-06 Lean rubiks cube.html" class="no-external">Rubik’s Cube in Lean</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2024-11-06 Lean rubiks cube.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
 </div>
-<a href="./posts/2024-11-06 Lean rubiks cube.html">
 <div class="listing-description">
-This Github repo contains the proof that there are <span class="math inline">\(2^{12} \times 3^{8} \times 8! \times 11!\)</span> Rubik’s cubes:
+<a href="./posts/2024-11-06 Lean rubiks cube.html" class="no-external">This Github repo contains the proof that there are <span class="math inline">\(2^{12} \times 3^{8} \times 8! \times 11!\)</span> Rubik’s cubes:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-11-06 Lean rubiks cube.html">
+<a href="./posts/2024-11-06 Lean rubiks cube.html" class="no-external">
 <div class="listing-date">
 Nov 6, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="textbooks,russian" data-listing-date-sort="1725987069000" data-listing-file-modified-sort="1730946426954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="dGV4dGJvb2tzJTJDcnVzc2lhbg==" data-listing-date-sort="1725987069000" data-listing-file-modified-sort="1730946426954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <div class="body">
-<a href="./posts/2024-09-10 mir publications.html">
 <h3 class="no-anchor listing-title">
-Mir Publications
+<a href="./posts/2024-09-10 mir publications.html" class="no-external">Mir Publications</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2024-09-10 mir publications.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('textbooks'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dGV4dGJvb2tz'); return false;">
 textbooks
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('russian'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cnVzc2lhbg=='); return false;">
 russian
 </div>
 </div>
-<a href="./posts/2024-09-10 mir publications.html">
 <div class="listing-description">
-I loathe American textbooks from the bottom of my heart. I learned math from these tiny 100 page books that made the point…
+<a href="./posts/2024-09-10 mir publications.html" class="no-external">I loathe American textbooks from the bottom of my heart. I learned math from these tiny 100 page books that made the point directly and succinctly and trusted the reader’s…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-09-10 mir publications.html">
+<a href="./posts/2024-09-10 mir publications.html" class="no-external">
 <div class="listing-date">
 Sep 10, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="abstract algebra" data-listing-date-sort="1717864381000" data-listing-file-modified-sort="1720660074733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="3" data-categories="YWJzdHJhY3QlMjBhbGdlYnJh" data-listing-date-sort="1717864381000" data-listing-file-modified-sort="1720660074733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
 <div class="body">
-<a href="./posts/2024-05-08 pythagoras hilbert 90.html">
 <h3 class="no-anchor listing-title">
-Pythagoras using Hilbert 90
+<a href="./posts/2024-05-08 pythagoras hilbert 90.html" class="no-external">Pythagoras using Hilbert 90</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2024-05-08 pythagoras hilbert 90.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('abstract algebra'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('YWJzdHJhY3QlMjBhbGdlYnJh'); return false;">
 abstract algebra
 </div>
 </div>
-<a href="./posts/2024-05-08 pythagoras hilbert 90.html">
 <div class="listing-description">
-Dummit and Foote has a fun way of classifying Pythagorean triples. It is a classic fact that if <span class="math inline">\((a, b, c)\)</span> is a reduced Pythagorean triple then there exists integers <span class="math inline">\…</span>
+<a href="./posts/2024-05-08 pythagoras hilbert 90.html" class="no-external">Dummit and Foote has a fun way of classifying Pythagorean triples. It is a classic fact that if <span class="math inline">\((a, b, c)\)</span> is a reduced Pythagorean triple then there exists integers <span class="math inline">\(m…</span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-05-08 pythagoras hilbert 90.html">
+<a href="./posts/2024-05-08 pythagoras hilbert 90.html" class="no-external">
 <div class="listing-date">
 Jun 8, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="sudoku" data-listing-date-sort="1704692277000" data-listing-file-modified-sort="1704692536239" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="c3Vkb2t1" data-listing-date-sort="1704692277000" data-listing-file-modified-sort="1704692536239" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="body">
-<a href="./posts/2023-01-08 sudoku.html">
 <h3 class="no-anchor listing-title">
-Phistomephel Ring in Sudoku
+<a href="./posts/2023-01-08 sudoku.html" class="no-external">Phistomephel Ring in Sudoku</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-01-08 sudoku.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('sudoku'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('c3Vkb2t1'); return false;">
 sudoku
 </div>
 </div>
-<a href="./posts/2023-01-08 sudoku.html">
 <div class="listing-description">
-Came across this really cool short video about identities in a Sudoku square:
+<a href="./posts/2023-01-08 sudoku.html" class="no-external">Came across this really cool short video about identities in a Sudoku square:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-01-08 sudoku.html">
+<a href="./posts/2023-01-08 sudoku.html" class="no-external">
 <div class="listing-date">
 Jan 8, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="analysis,linear programming,convex analysis" data-listing-date-sort="1704172383000" data-listing-file-modified-sort="1704423527951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="YW5hbHlzaXMlMkNsaW5lYXIlMjBwcm9ncmFtbWluZyUyQ2NvbnZleCUyMGFuYWx5c2lz" data-listing-date-sort="1704172383000" data-listing-file-modified-sort="1704423527951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
 <div class="body">
-<a href="./posts/2024-01-02 closed cones.html">
 <h3 class="no-anchor listing-title">
-Closed Convex Cones in LP
+<a href="./posts/2024-01-02 closed cones.html" class="no-external">Closed Convex Cones in LP</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2024-01-02 closed cones.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
 analysis
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('linear programming'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGluZWFyJTIwcHJvZ3JhbW1pbmc='); return false;">
 linear programming
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('convex analysis'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udmV4JTIwYW5hbHlzaXM='); return false;">
 convex analysis
 </div>
 </div>
-<a href="./posts/2024-01-02 closed cones.html">
 <div class="listing-description">
-I was formalizing some linear programming in Lean and came across one of the most surprisingly difficult to prove theorems.
+<a href="./posts/2024-01-02 closed cones.html" class="no-external">I was formalizing some linear programming in Lean and came across one of the most surprisingly difficult to prove theorems.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-01-02 closed cones.html">
+<a href="./posts/2024-01-02 closed cones.html" class="no-external">
 <div class="listing-date">
 Jan 2, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="combinatorics,problems,todo" data-listing-date-sort="1701019621000" data-listing-file-modified-sort="1701020665171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="6" data-categories="Y29tYmluYXRvcmljcyUyQ3Byb2JsZW1zJTJDdG9kbw==" data-listing-date-sort="1701019621000" data-listing-file-modified-sort="1701020665171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
 <div class="body">
-<a href="./posts/2023-11-26 combinatorial nullstellensatz.html">
 <h3 class="no-anchor listing-title">
-Combinatorial Nullstellensatz
+<a href="./posts/2023-11-26 combinatorial nullstellensatz.html" class="no-external">Combinatorial Nullstellensatz</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-11-26 combinatorial nullstellensatz.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('combinatorics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tYmluYXRvcmljcw=='); return false;">
 combinatorics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('problems'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHJvYmxlbXM='); return false;">
 problems
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('todo'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dG9kbw=='); return false;">
 todo
 </div>
 </div>
-<a href="./posts/2023-11-26 combinatorial nullstellensatz.html">
 <div class="listing-description">
-I came across this fun theorem in a talk about tree colorings:
+<a href="./posts/2023-11-26 combinatorial nullstellensatz.html" class="no-external">I came across this fun theorem in a talk about tree colorings:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-11-26 combinatorial nullstellensatz.html">
+<a href="./posts/2023-11-26 combinatorial nullstellensatz.html" class="no-external">
 <div class="listing-date">
 Nov 26, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="lean,mathblog" data-listing-date-sort="1698859293000" data-listing-file-modified-sort="1703645148386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="bGVhbiUyQ21hdGhibG9n" data-listing-date-sort="1698859293000" data-listing-file-modified-sort="1703645148386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
 <div class="body">
-<a href="./posts/2023-11-01 terrytao.html">
 <h3 class="no-anchor listing-title">
-Terrence Tao - Lean
+<a href="./posts/2023-11-01 terrytao.html" class="no-external">Terrence Tao - Lean</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-11-01 terrytao.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('mathblog'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0aGJsb2c='); return false;">
 mathblog
 </div>
 </div>
-<a href="./posts/2023-11-01 terrytao.html">
 <div class="listing-description">
-Terry Tao posted on Mastodon that he found a bug in a proof in one of his papers thanks to trying to formalize it in Lean. This is an…
+<a href="./posts/2023-11-01 terrytao.html" class="no-external">Terry Tao posted on Mastodon that he found a bug in a proof in one of his papers thanks to trying to formalize it in Lean. This is an excellent use case of Lean and tbh the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-11-01 terrytao.html">
+<a href="./posts/2023-11-01 terrytao.html" class="no-external">
 <div class="listing-date">
 Nov 1, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="lean,vscode extension,visualization,teaching" data-listing-date-sort="1698859096000" data-listing-file-modified-sort="1703645148375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="bGVhbiUyQ3ZzY29kZSUyMGV4dGVuc2lvbiUyQ3Zpc3VhbGl6YXRpb24lMkN0ZWFjaGluZw==" data-listing-date-sort="1698859096000" data-listing-file-modified-sort="1703645148375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <div class="body">
-<a href="./posts/2023-11-01 paperproof.html">
 <h3 class="no-anchor listing-title">
-PaperProof
+<a href="./posts/2023-11-01 paperproof.html" class="no-external">PaperProof</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-11-01 paperproof.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('vscode extension'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dnNjb2RlJTIwZXh0ZW5zaW9u'); return false;">
 vscode extension
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">
 visualization
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('teaching'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dGVhY2hpbmc='); return false;">
 teaching
 </div>
 </div>
-<a href="./posts/2023-11-01 paperproof.html">
 <div class="listing-description">
-This looks like a really cool tool for visualizing proofs in Lean:
+<a href="./posts/2023-11-01 paperproof.html" class="no-external">This looks like a really cool tool for visualizing proofs in Lean:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-11-01 paperproof.html">
+<a href="./posts/2023-11-01 paperproof.html" class="no-external">
 <div class="listing-date">
 Nov 1, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="todo,infinite series,number theory,riemann zeta" data-listing-date-sort="1698325286000" data-listing-file-modified-sort="1701020373415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="9" data-categories="dG9kbyUyQ2luZmluaXRlJTIwc2VyaWVzJTJDbnVtYmVyJTIwdGhlb3J5JTJDcmllbWFubiUyMHpldGE=" data-listing-date-sort="1698325286000" data-listing-file-modified-sort="1701020373415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
 <div class="body">
-<a href="./posts/2023-10-26 ln series.html">
 <h3 class="no-anchor listing-title">
-Logarithms and primes
+<a href="./posts/2023-10-26 ln series.html" class="no-external">Logarithms and primes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-10-26 ln series.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('todo'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dG9kbw=='); return false;">
 todo
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('infinite series'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('aW5maW5pdGUlMjBzZXJpZXM='); return false;">
 infinite series
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('number theory'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bnVtYmVyJTIwdGhlb3J5'); return false;">
 number theory
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('riemann zeta'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cmllbWFubiUyMHpldGE='); return false;">
 riemann zeta
 </div>
 </div>
-<a href="./posts/2023-10-26 ln series.html">
 <div class="listing-description">
-I came across this video by NumberPhile and 3Blue1Brown about the density of primes that are 1 mod 4 vs the density of…
+<a href="./posts/2023-10-26 ln series.html" class="no-external">I came across this video by NumberPhile and 3Blue1Brown about the density of primes that are 1 mod 4 vs the density of primes that are 3 mod 4. The main fact is quite cool…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-26 ln series.html">
+<a href="./posts/2023-10-26 ln series.html" class="no-external">
 <div class="listing-date">
 Oct 26, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="funny" data-listing-date-sort="1697662713000" data-listing-file-modified-sort="1698324901657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="ZnVubnk=" data-listing-date-sort="1697662713000" data-listing-file-modified-sort="1698324901657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <div class="body">
-<a href="./posts/2023-10-18 patterns fool ya.html">
 <h3 class="no-anchor listing-title">
-How They Fool Ya (live) | Math parody of Hallelujah
+<a href="./posts/2023-10-18 patterns fool ya.html" class="no-external">How They Fool Ya (live) | Math parody of Hallelujah</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-10-18 patterns fool ya.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('funny'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZnVubnk='); return false;">
 funny
 </div>
 </div>
-<a href="./posts/2023-10-18 patterns fool ya.html">
 <div class="listing-description">
-xD
+<a href="./posts/2023-10-18 patterns fool ya.html" class="no-external">xD</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-18 patterns fool ya.html">
+<a href="./posts/2023-10-18 patterns fool ya.html" class="no-external">
 <div class="listing-date">
 Oct 18, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="funny,database" data-listing-date-sort="1695573449000" data-listing-file-modified-sort="1704423458381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="ZnVubnklMkNkYXRhYmFzZQ==" data-listing-date-sort="1695573449000" data-listing-file-modified-sort="1704423458381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <div class="body">
-<a href="./posts/2023-09-24 tau.html">
 <h3 class="no-anchor listing-title">
-The Tau Manifesto
+<a href="./posts/2023-09-24 tau.html" class="no-external">The Tau Manifesto</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-24 tau.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('funny'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZnVubnk='); return false;">
 funny
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('database'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YWJhc2U='); return false;">
 database
 </div>
 </div>
-<a href="./posts/2023-09-24 tau.html">
 <div class="listing-description">
-<span class="math inline">\(\tau\)</span> manifesto
+<a href="./posts/2023-09-24 tau.html" class="no-external"><span class="math inline">\(\tau\)</span> manifesto</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-09-24 tau.html">
+<a href="./posts/2023-09-24 tau.html" class="no-external">
 <div class="listing-date">
 Sep 24, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="database,number theory" data-listing-date-sort="1695572563000" data-listing-file-modified-sort="1698324895468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="12" data-categories="ZGF0YWJhc2UlMkNudW1iZXIlMjB0aGVvcnk=" data-listing-date-sort="1695572563000" data-listing-file-modified-sort="1698324895468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
 <div class="body">
-<a href="./posts/2023-09-24 lmfdb.html">
 <h3 class="no-anchor listing-title">
-The L-functions and modular forms database (LMFDB)
+<a href="./posts/2023-09-24 lmfdb.html" class="no-external">The L-functions and modular forms database (LMFDB)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-24 lmfdb.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('database'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YWJhc2U='); return false;">
 database
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('number theory'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bnVtYmVyJTIwdGhlb3J5'); return false;">
 number theory
 </div>
 </div>
-<a href="./posts/2023-09-24 lmfdb.html">
 <div class="listing-description">
-LMFDB Github
+<a href="./posts/2023-09-24 lmfdb.html" class="no-external">LMFDB Github</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-09-24 lmfdb.html">
+<a href="./posts/2023-09-24 lmfdb.html" class="no-external">
 <div class="listing-date">
 Sep 24, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="to-read,philosophy,essay" data-listing-date-sort="1695572043000" data-listing-file-modified-sort="1703645148337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="13" data-categories="dG8tcmVhZCUyQ3BoaWxvc29waHklMkNlc3NheQ==" data-listing-date-sort="1695572043000" data-listing-file-modified-sort="1703645148337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <div class="body">
-<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html">
 <h3 class="no-anchor listing-title">
-Automated Mathematics and the Reconfiguration of Proof and Labor
+<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html" class="no-external">Automated Mathematics and the Reconfiguration of Proof and Labor</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('to-read'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dG8tcmVhZA=='); return false;">
 to-read
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('philosophy'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cGhpbG9zb3BoeQ=='); return false;">
 philosophy
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('essay'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZXNzYXk='); return false;">
 essay
 </div>
 </div>
-<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html">
 <div class="listing-description">
-I came across this essay by Rodrigo Ochigame exploring possible future impact of math formalization and automation.
+<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html" class="no-external">I came across this essay by Rodrigo Ochigame exploring possible future impact of math formalization and automation.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html">
+<a href="./posts/2023-08-24 Automated Mathematics and the Reconfiguration of Proof and Labor.html" class="no-external">
 <div class="listing-date">
 Sep 24, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="poem" data-listing-date-sort="1694909739000" data-listing-file-modified-sort="1698324892734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="14" data-categories="cG9lbQ==" data-listing-date-sort="1694909739000" data-listing-file-modified-sort="1698324892734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="676">
 <div class="body">
-<a href="./posts/2023-09-16 when math becomes an art.html">
 <h3 class="no-anchor listing-title">
-When Math Becomes an Art
+<a href="./posts/2023-09-16 when math becomes an art.html" class="no-external">When Math Becomes an Art</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-16 when math becomes an art.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('poem'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cG9lbQ=='); return false;">
 poem
 </div>
 </div>
-<a href="./posts/2023-09-16 when math becomes an art.html">
 <div class="listing-description">
-
+<a href="./posts/2023-09-16 when math becomes an art.html" class="no-external">
 A post shared by Elle Cordova (<span class="citation" data-cites="ellecordova">@ellecordova</span>)
-
-</div>
 </a>
 </div>
+</div>
 <div class="metadata">
-<a href="./posts/2023-09-16 when math becomes an art.html">
+<a href="./posts/2023-09-16 when math becomes an art.html" class="no-external">
 <div class="listing-date">
 Sep 16, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="todo,number theory,elementary number theory" data-listing-date-sort="1694374544000" data-listing-file-modified-sort="1701020373412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="15" data-categories="dG9kbyUyQ251bWJlciUyMHRoZW9yeSUyQ2VsZW1lbnRhcnklMjBudW1iZXIlMjB0aGVvcnk=" data-listing-date-sort="1694374544000" data-listing-file-modified-sort="1701020373412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="body">
-<a href="./posts/2023-09-10 prime sum of squares.html">
 <h3 class="no-anchor listing-title">
-Every Prime <span class="math inline">\(\equiv 1 \mod 4\)</span> Is a Sum of Two Squares
+<a href="./posts/2023-09-10 prime sum of squares.html" class="no-external">Every Prime <span class="math inline">\(\equiv 1 \mod 4\)</span> Is a Sum of Two Squares</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-10 prime sum of squares.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('todo'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dG9kbw=='); return false;">
 todo
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('number theory'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bnVtYmVyJTIwdGhlb3J5'); return false;">
 number theory
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('elementary number theory'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZWxlbWVudGFyeSUyMG51bWJlciUyMHRoZW9yeQ=='); return false;">
 elementary number theory
 </div>
 </div>
-<a href="./posts/2023-09-10 prime sum of squares.html">
 <div class="listing-description">
-I came across this “one sentence” proof that every prime congruent to 1 mod 4 can be written as a sum of two squares:
+<a href="./posts/2023-09-10 prime sum of squares.html" class="no-external">I came across this “one sentence” proof that every prime congruent to 1 mod 4 can be written as a sum of two squares:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-09-10 prime sum of squares.html">
+<a href="./posts/2023-09-10 prime sum of squares.html" class="no-external">
 <div class="listing-date">
 Sep 10, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="lean,ML,tactics" data-listing-date-sort="1694313461000" data-listing-file-modified-sort="1703645148370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="16" data-categories="bGVhbiUyQ01MJTJDdGFjdGljcw==" data-listing-date-sort="1694313461000" data-listing-file-modified-sort="1703645148370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
 <div class="body">
-<a href="./posts/2023-09-09 llm.html">
 <h3 class="no-anchor listing-title">
-llmstep and LeanInfer
+<a href="./posts/2023-09-09 llm.html" class="no-external">llmstep and LeanInfer</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-09 llm.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TUw='); return false;">
 ML
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('tactics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dGFjdGljcw=='); return false;">
 tactics
 </div>
 </div>
-<a href="./posts/2023-09-09 llm.html">
 <div class="listing-description">
-I came across two LLM based tactics for Lean
+<a href="./posts/2023-09-09 llm.html" class="no-external">I came across two LLM based tactics for Lean</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-09-09 llm.html">
+<a href="./posts/2023-09-09 llm.html" class="no-external">
 <div class="listing-date">
 Sep 9, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="lean,ML,webapp" data-listing-date-sort="1693858939000" data-listing-file-modified-sort="1703645148366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="17" data-categories="bGVhbiUyQ01MJTJDd2ViYXBw" data-listing-date-sort="1693858939000" data-listing-file-modified-sort="1703645148366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <div class="body">
-<a href="./posts/2023-09-04 leandojo.html">
 <h3 class="no-anchor listing-title">
-LeanDojo
+<a href="./posts/2023-09-04 leandojo.html" class="no-external">LeanDojo</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-04 leandojo.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TUw='); return false;">
 ML
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('webapp'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d2ViYXBw'); return false;">
 webapp
 </div>
 </div>
-<a href="./posts/2023-09-04 leandojo.html">
 <div class="listing-description">
-This was posted a while back on the Lean Zulip:
+<a href="./posts/2023-09-04 leandojo.html" class="no-external">This was posted a while back on the Lean Zulip:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-09-04 leandojo.html">
+<a href="./posts/2023-09-04 leandojo.html" class="no-external">
 <div class="listing-date">
 Sep 4, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="lean,tactics,tutorial,to-read" data-listing-date-sort="1693530825000" data-listing-file-modified-sort="1703645148355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="18" data-categories="bGVhbiUyQ3RhY3RpY3MlMkN0dXRvcmlhbCUyQ3RvLXJlYWQ=" data-listing-date-sort="1693530825000" data-listing-file-modified-sort="1703645148355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <div class="body">
-<a href="./posts/2023-08-30 tactics.html">
 <h3 class="no-anchor listing-title">
-Short tactics tutorial
+<a href="./posts/2023-08-30 tactics.html" class="no-external">Short tactics tutorial</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-08-30 tactics.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('tactics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dGFjdGljcw=='); return false;">
 tactics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('tutorial'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dHV0b3JpYWw='); return false;">
 tutorial
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('to-read'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dG8tcmVhZA=='); return false;">
 to-read
 </div>
 </div>
-<a href="./posts/2023-08-30 tactics.html">
 <div class="listing-description">
-I have always wanted to learn tactics writing in Lean. But for whatever reason, none of the tutorials that exist online have been helpful. I suspect that the best way to…
+<a href="./posts/2023-08-30 tactics.html" class="no-external">I have always wanted to learn tactics writing in Lean. But for whatever reason, none of the tutorials that exist online have been helpful. I suspect that the best way to…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-08-30 tactics.html">
+<a href="./posts/2023-08-30 tactics.html" class="no-external">
 <div class="listing-date">
 Aug 31, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="lean,search,webapp" data-listing-date-sort="1693514271000" data-listing-file-modified-sort="1703645148351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="19" data-categories="bGVhbiUyQ3NlYXJjaCUyQ3dlYmFwcA==" data-listing-date-sort="1693514271000" data-listing-file-modified-sort="1703645148351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
 <div class="body">
-<a href="./posts/2023-08-30 loogle.html">
 <h3 class="no-anchor listing-title">
-Loogle!
+<a href="./posts/2023-08-30 loogle.html" class="no-external">Loogle!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-08-30 loogle.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lean'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhbg=='); return false;">
 lean
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('search'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('c2VhcmNo'); return false;">
 search
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('webapp'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d2ViYXBw'); return false;">
 webapp
 </div>
 </div>
-<a href="./posts/2023-08-30 loogle.html">
 <div class="listing-description">
-An improved search engine for Lean:
+<a href="./posts/2023-08-30 loogle.html" class="no-external">An improved search engine for Lean:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-08-30 loogle.html">
+<a href="./posts/2023-08-30 loogle.html" class="no-external">
 <div class="listing-date">
 Aug 31, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="history of math" data-listing-date-sort="1693314811000" data-listing-file-modified-sort="1698327232603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="20" data-categories="aGlzdG9yeSUyMG9mJTIwbWF0aA==" data-listing-date-sort="1693314811000" data-listing-file-modified-sort="1698327232603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
 <div class="body">
-<a href="./posts/2023-08-29 integers.html">
 <h3 class="no-anchor listing-title">
-Etymology of <em>Integer</em>
+<a href="./posts/2023-08-29 integers.html" class="no-external">Etymology of <em>Integer</em></a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-08-29 integers.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('history of math'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9yeSUyMG9mJTIwbWF0aA=='); return false;">
 history of math
 </div>
 </div>
-<a href="./posts/2023-08-29 integers.html">
 <div class="listing-description">
-We use integers so much in math that it never occurred to me before yesterday that this is a weird word with a weirder symbol associated to it. Wikipedia exp…
+<a href="./posts/2023-08-29 integers.html" class="no-external">We use integers so much in math that it never occurred to me before yesterday that this is a weird word with a weirder symbol associated to it. Wikipedia explains this very…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-08-29 integers.html">
+<a href="./posts/2023-08-29 integers.html" class="no-external">
 <div class="listing-date">
 Aug 29, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="resources,history of math" data-listing-date-sort="1692671411000" data-listing-file-modified-sort="1698326996595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="21" data-categories="cmVzb3VyY2VzJTJDaGlzdG9yeSUyMG9mJTIwbWF0aA==" data-listing-date-sort="1692671411000" data-listing-file-modified-sort="1698326996595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
 <div class="body">
-<a href="./posts/2023-08-21 history of math.html">
 <h3 class="no-anchor listing-title">
-History-of-Math Resources
+<a href="./posts/2023-08-21 history of math.html" class="no-external">History-of-Math Resources</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-08-21 history of math.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cmVzb3VyY2Vz'); return false;">
 resources
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('history of math'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9yeSUyMG9mJTIwbWF0aA=='); return false;">
 history of math
 </div>
 </div>
-<a href="./posts/2023-08-21 history of math.html">
 <div class="listing-description">
-I’ve always been fascinated by the history of mathematics. Some of the classic and dramatic discoveries I read a kid were those of non-Euclidean geometry, Galois theory, the…<span class="math inline"></span><sup></sup>
+<a href="./posts/2023-08-21 history of math.html" class="no-external">I’ve always been fascinated by the history of mathematics. Some of the classic and dramatic discoveries I read a kid were those of non-Euclidean geometry, Galois theory, the…<span class="math inline"></span><sup></sup></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-08-21 history of math.html">
+<a href="./posts/2023-08-21 history of math.html" class="no-external">
 <div class="listing-date">
 Aug 21, 2023
 </div>
@@ -958,6 +905,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -1026,13 +1000,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1067,18 +1043,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1110,11 +1075,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/github\.com\/apurvanakade\/math-blog\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1124,8 +1126,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1137,7 +1148,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1181,6 +1314,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1206,6 +1340,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1266,6 +1426,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
